@@ -35,7 +35,7 @@ This guide is organized into focused sections for better learning:
 9. **[Performance & Patterns](./docs/09-performance-security.md)** (Questions 400-450) - Optimization, Design Patterns
 
 ### Practice Section
-- **[Coding Exercises](./docs/10-code-exercies.md)** - 80 practical coding challenges
+- **[Coding Exercises](./docs/10-code-exercises.md)** - 80 practical coding challenges
 
 ---
 
