@@ -1,0 +1,50 @@
+{
+  "name": "javascript-interview-questions",
+  "version": "2.0.0",
+  "description": "450+ JavaScript interview questions with detailed answers, practice exercises, and common mistakes",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "serve": "docsify serve . --port 3000",
+    "start": "npm run serve",
+    "build": "node scripts/build.js",
+    "preview": "docsify serve . --port 8080",
+    "lint": "markdownlint docs/**/*.md --ignore node_modules",
+    "format": "prettier --write \"**/*.{md,json,js}\"",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilgeGates/Js-Interview-Questions.git"
+  },
+  "keywords": [
+    "javascript",
+    "interview-questions",
+    "coding-interview",
+    "frontend",
+    "web-development",
+    "es6",
+    "async",
+    "promises",
+    "documentation",
+    "tutorial"
+  ],
+  "author": "BilgeGates <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BilgeGates/Js-Interview-Questions/issues"
+  },
+  "homepage": "https://bilgegates.github.io/Js-Interview-Questions/",
+  "devDependencies": {
+    "docsify-cli": "^4.4.4",
+    "gh-pages": "^6.1.0",
+    "markdownlint-cli": "^0.37.0",
+    "prettier": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

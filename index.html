@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Interview Questions & Answers - Complete Guide</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="description"
+      content="450+ JavaScript interview questions with detailed answers, practice exercises, and common mistakes. Originally by Sudheer Jonna."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <meta
+      name="author"
+      content="Sudheer Jonna (Original), BilgeGates (Enhanced)"
+    />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <link rel="stylesheet" href="./assets" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body class="theme-green">
+    <div class="progress-bar" id="progressBar"></div>
+    <div id="app">Loading...</div>
+
+    <div class="palette-selector" id="paletteSelector">
+      <button
+        class="palette-button theme-green-btn active"
+        data-theme="green"
+        title="Green"
+      ></button>
+      <button
+        class="palette-button theme-blue-btn"
+        data-theme="blue"
+        title="Blue"
+      ></button>
+      <button
+        class="palette-button theme-red-btn"
+        data-theme="red"
+        title="Red"
+      ></button>
+      <button
+        class="palette-button theme-orange-btn"
+        data-theme="orange"
+        title="Orange"
+      ></button>
+      <button
+        class="palette-button theme-purple-btn"
+        data-theme="purple"
+        title="Purple"
+      ></button>
+    </div>
+
+    <button class="fab-button back-to-top" id="backToTop" title="Back to top">
+      <i data-lucide="arrow-up"></i>
+    </button>
+
+    <button
+      class="fab-button dark-mode-toggle"
+      id="darkModeToggle"
+      title="Toggle dark mode"
+    >
+      <i data-lucide="moon" id="themeIcon"></i>
+    </button>
+
+    <button
+      class="fab-button palette-toggle"
+      id="paletteToggle"
+      title="Change theme color"
+    >
+      <i data-lucide="palette"></i>
+    </button>
+
+    <script>
+      window.$docsify = {
+        name: "JS Interview Questions",
+        repo: "https://github.com/sudheerj/javascript-interview-questions",
+        loadSidebar: true,
+        loadNavbar: true,
+        coverpage: true,
+        onlyCover: false,
+        subMaxLevel: 3,
+        auto2top: true,
+        maxLevel: 4,
+        search: {
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: "Search questions...",
+          noData: "No results found",
+          depth: 6,
+          hideOtherSidebarContent: false,
+        },
+        copyCode: {
+          buttonText: "Copy",
+          errorText: "Error",
+          successText: "Copied!",
+        },
+        pagination: {
+          previousText: "← Previous",
+          nextText: "Next →",
+          crossChapter: true,
+          crossChapterText: true,
+        },
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
+              const url =
+                "https://github.com/sudheerj/javascript-interview-questions/blob/master/" +
+                vm.route.file;
+              return (
+                '<div><i data-lucide="edit-3" style="width: 16px; height: 16px;"></i> <a href="' +
+                url +
+                '" target="_blank">Edit on GitHub</a></div>\n\n' +
+                html
+              );
+            });
+            hook.doneEach(function () {
+              lucide.createIcons();
+              initializeCollapsible();
+            });
+          },
+        ],
+        footer: {
+          copy: '<span>Created by <a href="https://github.com/sudheerj" target="_blank">Sudheer Jonna</a> | Enhanced by <a href="https://github.com/BilgeGates" target="_blank">BilgeGates</a> &copy; 2024</span>',
+          pre: "<hr/>",
+          style:
+            "text-align: center; font-size: 0.9em; color: var(--text-secondary); padding: 2rem 0;",
+        },
+      };
+    </script>
+
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh@latest/dist/docsify-footer-enh.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        initializeDarkMode();
+        initializePaletteSelector();
+        lucide.createIcons();
+      });
+
+      function initializeDarkMode() {
+        const toggle = document.getElementById("darkModeToggle");
+        const icon = document.getElementById("themeIcon");
+        const saved = localStorage.getItem("theme");
+
+        if (saved === "dark") {
+          document.body.classList.add("dark-mode");
+          icon.setAttribute("data-lucide", "sun");
+        }
+
+        toggle.addEventListener("click", () => {
+          const isDark = document.body.classList.toggle("dark-mode");
+          icon.setAttribute("data-lucide", isDark ? "sun" : "moon");
+          localStorage.setItem("theme", isDark ? "dark" : "light");
+          lucide.createIcons();
+        });
+
+        lucide.createIcons();
+      }
+
+      function initializePaletteSelector() {
+        const toggle = document.getElementById("paletteToggle");
+        const selector = document.getElementById("paletteSelector");
+        const buttons = document.querySelectorAll(".palette-button");
+        const saved = localStorage.getItem("themeColor") || "green";
+
+        document.body.className =
+          document.body.className.replace(/theme-\w+/, "") + ` theme-${saved}`;
+        buttons.forEach((btn) =>
+          btn.classList.toggle("active", btn.dataset.theme === saved)
+        );
+
+        toggle.addEventListener("click", () => {
+          selector.classList.toggle("show");
+        });
+
+        document.addEventListener("click", (e) => {
+          if (!toggle.contains(e.target) && !selector.contains(e.target)) {
+            selector.classList.remove("show");
+          }
+        });
+
+        buttons.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const theme = btn.dataset.theme;
+            document.body.className =
+              document.body.className.replace(/theme-\w+/, "") +
+              ` theme-${theme}`;
+            buttons.forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            localStorage.setItem("themeColor", theme);
+          });
+        });
+      }
+
+      function initializeCollapsible() {
+        const items = document.querySelectorAll(".sidebar-nav li");
+        items.forEach((item) => {
+          const link = item.querySelector("a");
+          const subList = item.querySelector("ul");
+
+          if (subList) {
+            item.classList.add("collapse");
+
+            link.addEventListener("click", (e) => {
+              if (e.target === link) {
+                e.preventDefault();
+                item.classList.toggle("open");
+              }
+            });
+          }
+        });
+      }
+
+      const backToTop = document.getElementById("backToTop");
+      window.addEventListener("scroll", () => {
+        backToTop.style.display = window.pageYOffset > 400 ? "flex" : "none";
+
+        const scroll =
+          document.body.scrollTop || document.documentElement.scrollTop;
+        const height =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        document.getElementById("progressBar").style.width =
+          (scroll / height) * 100 + "%";
+      });
+
+      backToTop.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>
