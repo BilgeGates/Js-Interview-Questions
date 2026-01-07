@@ -823,7 +823,7 @@
      3. Delete the `eatFruits()` function from our call stack list.
      4. Delete the `hungry()` function from the call stack list since there are no items anymore.
 
-     ![Screenshot](images/call-stack.png)
+     ![Screenshot](../images/call-stack.png)
 
      **[⬆ Back to Top](#table-of-contents)**
 

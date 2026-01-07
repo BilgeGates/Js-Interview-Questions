@@ -31,8 +31,6 @@ The function declarations are hoisted similar to any variables. So the placement
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 2. What is the output of below code
 
 ```javascript
@@ -70,8 +68,6 @@ Since the block scoped variable x is undefined outside of the function, the type
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 3. What is the output of below code
 
@@ -112,8 +108,6 @@ The statements order is based on the event loop mechanism. The order of statemen
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 4. What is the output of below equality check
 
 ```javascript
@@ -135,8 +129,6 @@ You can find more details about the explanation here [0.30000000000000004.com/](
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 5. What is the output of below code
 
@@ -180,8 +172,6 @@ console.log(y);
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 6. What is the output of below code
 
 ```javascript
@@ -222,8 +212,6 @@ console.log(foo()); // {message: "Hello World"}
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 7. What is the output of below code
 
 ```javascript
@@ -251,8 +239,6 @@ If you try to print myChars then you can observe that it doesn't set an undefine
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 8. What is the output of below code in latest Chrome
 
@@ -285,8 +271,6 @@ The latest chrome versions display `sparse array`(they are filled with holes) us
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 9. What is the output of below code
 
@@ -325,8 +309,6 @@ ES6 provides method definitions and property shorthands for objects. So both pro
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 10. What is the output of below code
 
 ```javascript
@@ -364,8 +346,6 @@ Whereas the second statement follows the below order,
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 11. What is the output of below code in non-strict mode
 
 ```javascript
@@ -395,8 +375,6 @@ The value of the first parameter is mapped to the third argument which is passed
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 12. What is the output of below code
 
 ```javascript
@@ -422,8 +400,6 @@ Unlike regular functions, the arrow functions doesn't not allow duplicate parame
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 13. What is the output of below code
 
@@ -465,8 +441,6 @@ console.log(arrowFunc(1, 2, 3));
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 14. What is the output of below code
 
 ```javascript
@@ -488,8 +462,6 @@ In order to be consistent with functions like `String.prototype.padStart`, the s
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 15. What is the output of below code
 
@@ -514,8 +486,6 @@ console.log(Math.max());
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 16. What is the output of below code
 
@@ -547,8 +517,6 @@ So it doesn't matter about number brackets([]) around the number, it is always c
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 17. What is the output of below code
 
 ```javascript
@@ -572,8 +540,6 @@ The concatenation operator(+) is applicable for both number and string types. So
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 18. What is the output of below code
 
@@ -624,8 +590,6 @@ The + operator is not meant or defined for arrays. So it converts arrays into st
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 20. What is the output of below code
 
 ```javascript
@@ -653,8 +617,6 @@ Since `Set` object is a collection of unique values, it won't allow duplicate va
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 21. What is the output of below code
 
 ```javascript
@@ -675,8 +637,6 @@ JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never equ
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 22. What is the output of below code
 
@@ -710,8 +670,6 @@ console.log(numbers.includes(NaN)); // true
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 23. What is the output of below code
 
 ```javascript
@@ -741,8 +699,6 @@ console.log(a, b); // 1, [2, 3, 4, 5]
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 25. What is the output of below code
 
@@ -776,8 +732,6 @@ function func() {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 26. What is the output of below code
 
 ```javascript
@@ -809,8 +763,6 @@ function func() {
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 27. What is the output of below code
 
@@ -850,8 +802,6 @@ Even though “processArray” is an async function, the anonymous function that
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 28. What is the output of below code
 
@@ -902,8 +852,6 @@ async function processArray(array) {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 29. What is the output of below code
 
 ```javascript
@@ -931,8 +879,6 @@ Set has few exceptions from equality check,
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 30. What is the output of below code
 
@@ -969,8 +915,6 @@ Symbol follows below conventions,
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 31. What is the output of below code
 
 ```javascript
@@ -995,8 +939,6 @@ console.log(sym1);
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 32. What is the output of below code
 
@@ -1047,8 +989,6 @@ if (typeof myNumber !== "string")
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 33. What is the output of below code
 
 ```javascript
@@ -1080,8 +1020,6 @@ The symbols has below constraints,
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 34. What is the output of below code
 
@@ -1118,8 +1056,6 @@ Using constructors, `new.target` refers to the constructor (points to the class 
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 35. What is the output of below code
 
 ```javascript
@@ -1144,8 +1080,6 @@ It throws a syntax error because the rest element should not have a trailing com
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 36. What is the output of below code
 
@@ -1176,8 +1110,6 @@ The object property follows below rules,
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 37. What is the output of below code
 
@@ -1229,8 +1161,6 @@ area();
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 38. What is the output of below code
 
 ```javascript
@@ -1261,8 +1191,6 @@ It is possible to combine Array and Object destructuring. In this case, the thir
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 39. What is the output of below code
 
@@ -1300,8 +1228,6 @@ Hence, the result of function calls categorized as below,
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 40. What is the output of below code
 
 ```javascript
@@ -1330,8 +1256,6 @@ Since the default argument is evaluated at call time, a new object is created ea
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 41. What is the output of below code
 
 ```javascript
@@ -1359,8 +1283,6 @@ Since parameters defined earlier are available to later default parameters, this
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 42. What is the output of below code
 
 ```javascript
@@ -1387,8 +1309,6 @@ The functions and variables declared in the function body cannot be referred fro
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 43. What is the output of below code
 
@@ -1419,8 +1339,6 @@ The rest parameter is used to hold the remaining parameters of a function and it
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 44. What is the output of below code
 
 ```javascript
@@ -1446,8 +1364,6 @@ Spread syntax can be applied only to iterable objects. By default, Objects are n
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 45. What is the output of below code
 
@@ -1478,8 +1394,6 @@ Generators are not constructible type. But if you still proceed to do, there wil
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 46. What is the output of below code
 
@@ -1513,8 +1427,6 @@ A return statement in a generator function will make the generator finish. If a 
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 47. What is the output of below code
 
@@ -1552,8 +1464,6 @@ The generator should not be re-used once the iterator is closed. i.e, Upon exiti
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 48. What is the output of below code
 
 ```javascript
@@ -1576,8 +1486,6 @@ If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScr
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 49. What is the output of below code
 
@@ -1618,8 +1526,6 @@ Unlike function declarations, class declarations are not hoisted. i.e, First You
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 50. What is the output of below code
 
 ```javascript
@@ -1658,8 +1564,6 @@ When a regular or prototype method is called without a value for **this**, the m
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 51. What is the output of below code
 
@@ -1703,8 +1607,6 @@ The super keyword is used to call methods of a superclass. Unlike other language
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 52. What is the output of below code
 
 ```javascript
@@ -1731,8 +1633,6 @@ Even though we used constant variables, the content of it is an object and the o
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 53. What is the output of below code
 
 ```javascript
@@ -1754,8 +1654,6 @@ Emojis are unicodes and the unicode for smile symbol is "U+1F642". The unicode c
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 54. What is the output of below code?
 
@@ -1780,8 +1678,6 @@ The typeof operator on any primitive returns a string value. So even if you appl
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 55. What is the output of below code?
 
@@ -1816,8 +1712,6 @@ Hence the above code block always goes to if section.
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 55. What is the output of below code in non strict mode?
 
 ```javascript
@@ -1845,8 +1739,6 @@ It returns undefined for non-strict mode and returns Error for strict mode. In n
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 56. What is the output of below code?
 
@@ -1883,8 +1775,6 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 57. What is the output of below code ?
 
 - 1: console.log(true && 'hi');
@@ -1912,8 +1802,6 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 58. What is the output of below code ?
 
 ```javascript
@@ -1939,8 +1827,6 @@ Arrays have their own implementation of `toString` method that returns a comma-s
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 59. What is the output of below code?
 
@@ -1969,8 +1855,6 @@ Hoisting will move variables and functions to be the top of scope. Even though g
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 60. What is the output of below code?
 
@@ -2001,8 +1885,6 @@ Even though a promise is resolved immediately, it won't be executed immediately 
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 61. What is the output of below code?
 
@@ -2035,8 +1917,6 @@ Hence, there will be **cannot read properties of undefined** error while applyin
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 62. Write a function that returns a random HEX color
 
@@ -2084,8 +1964,6 @@ function generateRandomHex() {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 63. What is the output of below code?
 
 ```javascript
@@ -2122,8 +2000,6 @@ for(var in in in) {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 64. What is the output of below code?
 
 ```javascript
@@ -2157,8 +2033,6 @@ console.log(numbers);
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 65. What is the output order of below code?
 
 ```javascript
@@ -2180,8 +2054,6 @@ When the JavaScript engine parses the above code, the first two statements are a
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 66. What is the output of below code?
 
@@ -2218,8 +2090,6 @@ var message = function () {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 67. What is the output of below code?
 
 ```javascript
@@ -2247,8 +2117,6 @@ As part of hoisting, initially JavaScript Engine or compiler will store first fu
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 68. What is the output of below code?
 
@@ -2278,8 +2146,6 @@ Due to hositing feature, the variables declared with `var` will have `undefined`
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 69. What is the output of below code in an order?
 
@@ -2315,8 +2181,6 @@ Each context(global or functional) has it's own variable environment and the cal
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 70. What is the output of below code?
 
 ```javascript
@@ -2340,8 +2204,6 @@ The function call `functionOne` is not going to be part of scope chain and it ha
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 71. What is the output of below code?
 
@@ -2422,8 +2284,6 @@ user.eat()();
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 72. What is the output of below code?
 
 ```javascript
@@ -2450,8 +2310,6 @@ In JavaScript, primitives are immutable i.e. there is no way to change a primiti
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 73. What is the output of below code?
 
@@ -2485,8 +2343,6 @@ In JavaScript, the variables such as objects, arrays and functions comes under p
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 74. What is the output of below code?
 
 ```javascript
@@ -2515,8 +2371,6 @@ The variable `message` is still treated as closure(since it has been used in inn
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 75. What is the output of below code?
 
 ```javascript
@@ -2538,8 +2392,6 @@ Eventhough both variables `a` and `b` refer a number value, the first declaratio
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 76. What is the type of below function?
 
@@ -2563,8 +2415,6 @@ Eventhough the above function returns the same result for the same arguments(inp
 </details>
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 77. What is the output of below code?
 
@@ -2594,8 +2444,6 @@ Promise.allSettled([promiseOne, promiseTwo]).then(data => console.log(data));
 </details> 
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 78. What is the output of below code?
 
@@ -2639,8 +2487,6 @@ You can use `.catch()` function in promises to avoid these issues with asynchron
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 79. What is the output of below code?
 
 ```javascript
@@ -2667,8 +2513,6 @@ The variable "a" declared inside "if" has block scope and does not affect the va
 </details> 
 
 ---
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 80. What is the output of below code?
 

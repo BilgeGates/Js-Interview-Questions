@@ -157,7 +157,7 @@
      observable.subscribe((value) => console.log(value));
      ```
 
-     ![Screenshot](images/observables.png)
+     ![Screenshot](../images/observables.png)
 
      **Note:** Observables are not part of the JavaScript language yet but they are being proposed to be added to the language
 

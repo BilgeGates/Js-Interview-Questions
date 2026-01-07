@@ -335,7 +335,7 @@
      ```
 
      The text will be displayed as below,
-     ![Screenshot](images/console-css.png)
+     ![Screenshot](../images/console-css.png)
 
      **Note:** All CSS styles can be applied to console messages.
 
@@ -351,7 +351,7 @@
      ```
 
      The user object displayed in JSON representation
-     ![Screenshot](images/console-dir.png)
+     ![Screenshot](../images/console-dir.png)
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -366,7 +366,7 @@
 
      It prints the HTML element in the console,
 
-     ![Screenshot](images/console-html.png)
+     ![Screenshot](../images/console-html.png)
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -385,7 +385,7 @@
 
      The data visualized in a table format,
 
-     ![Screenshot](images/console-table.png)
+     ![Screenshot](../images/console-table.png)
      **Not:** Remember that `console.table()` is not supported in IE.
 
      **[⬆ Back to Top](#table-of-contents)**
@@ -751,7 +751,7 @@
      Heap(Or memory heap) is the memory location where objects are stored when we define variables. i.e, This is the place where all the memory allocations and de-allocation take place. Both heap and call-stack are two containers of JS runtime.
      Whenever runtime comes across variables and function declarations in the code it stores them in the Heap.
 
-     ![Screenshot](images/heap.png)
+     ![Screenshot](../images/heap.png)
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -760,7 +760,7 @@
      Event Table is a data structure that stores and keeps track of all the events which will be executed asynchronously like after some time interval or after the resolution of some API requests. i.e Whenever you call a setTimeout function or invoke async operation, it is added to the Event Table.
      It doesn't not execute functions on it’s own. The main purpose of the event table is to keep track of events and send them to the Event Queue as shown in the below diagram.
 
-     ![Screenshot](images/event-table.png)
+     ![Screenshot](../images/event-table.png)
 
      **[⬆ Back to Top](#table-of-contents)**
 

@@ -256,7 +256,7 @@
 
     The action flow of a promise will be as below,
 
-    ![Screenshot](images/promises.png)
+    ![Screenshot](../images/promises.png)
 
     **[⬆ Back to Top](#table-of-contents)**
 

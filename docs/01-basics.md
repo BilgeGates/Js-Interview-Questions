@@ -153,7 +153,7 @@
 
    The prototype on object instance is available through **Object.getPrototypeOf(object)** or **\_\_proto__** property whereas prototype on constructors function is available through **Object.prototype**.
 
-   ![Screenshot](images/prototype_chain.png)
+   ![Screenshot](../images/prototype_chain.png)
 
    **[⬆ Back to Top](#table-of-contents)**
 
@@ -758,7 +758,7 @@
     document.cookie = "username=John";
     ```
 
-    ![Screenshot](images/cookie.png)
+    ![Screenshot](../images/cookie.png)
 
     **[⬆ Back to Top](#table-of-contents)**
 
